@@ -1,0 +1,86 @@
+body {
+  margin: 0 auto;
+  width: 700px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 400px;
+}
+
+.addCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mainCard {
+  width: 30%;
+  height: 400px;
+  margin-top: 45px;
+  margin-right: 2.3%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.header {
+  width: 100%;
+  height: 40%
+}
+
+.body {
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+
+.bodyText {
+  width: 50%;
+  margin-left: 5%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bodyBtn {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.bodyBtn button {
+  border: 2px solid #068eef;
+  border-radius: 4px;
+  color: #068eef;
+  background-color: aliceblue;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+hr {
+  width: 90%;
+}
+
+.footer {
+  width: 100%;
+  height: 30%;
+}
+
+.footerText {
+  font-family: sans-serif;
+  padding-left: 5%;
+}
+
+.footerBtn button {
+  color: aliceblue;
+  background-color: rgb(6, 177, 6);
+  border: none;
+  border-radius: 3px;
+  height: 25px;
+  margin-left: 7%;
+}
